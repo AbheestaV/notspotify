@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "133394692039",
+    "project_id": "not-spotify-8d653",
+    "storage_bucket": "not-spotify-8d653.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133394692039:android:798f344da229919241cbe2",
+        "android_client_info": {
+          "package_name": "com.example.notspotify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133394692039-0v6eaj86vjt073pqhq1le96ts62gdpeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA20BfbTptcxvHDNXKvzHXPxvqkQw8xjpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133394692039-0v6eaj86vjt073pqhq1le96ts62gdpeu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
