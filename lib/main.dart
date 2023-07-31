@@ -7,6 +7,9 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'login_page.dart';
 import 'home_page.dart';
+import 'models/song.dart';
+import 'services/database_service.dart';
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -52,17 +55,16 @@ class _MyAppState extends State<MyApp> {
     final _screens = [HomeScreen(), SearchScreen(), LibraryScreen()];
     return Scaffold(
       appBar: AppBar(
-        title: Text('Not Spotify'),
-        actions: <Widget>[
-          TextButton(
-            child: Text('Sign Out'),
-            onPressed: () async {
-              await _auth.signOut();
-            },
-          ),
-        ],
-      ),
+              title: Text('Not Spotify'),
+
+            ),
       body: _screens[_currentIndex],
+      floatingActionButton: FloatingActionButton(
+        onPressed: () async {
+          await _auth.signOut();
+        },
+        child: Icon(Icons.logout),
+      ),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
         items: const <BottomNavigationBarItem>[
@@ -88,6 +90,7 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
+
 
 
 
