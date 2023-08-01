@@ -4,7 +4,7 @@
             "outputFile": "com.example.notspotify.app-mergeDebugResources-14:/values-tl/values-tl.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Zod\\.gradle\\caches\\transforms-3\\9aacd92044d3c0fced5d96d094537c9f\\transformed\\jetified-play-services-base-18.0.1\\res\\values-tl\\values.xml",
+                    "source": "C:\\Users\\win10\\.gradle\\caches\\transforms-3\\fb05ebe4ba377fe1bb8a798cac626853\\transformed\\jetified-play-services-base-18.1.0\\res\\values-tl\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Zod\\.gradle\\caches\\transforms-3\\45b55c87021c9ab508d82f4ad609d95c\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-tl\\values.xml",
+                    "source": "C:\\Users\\win10\\.gradle\\caches\\transforms-3\\45b55c87021c9ab508d82f4ad609d95c\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-tl\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,24 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Zod\\.gradle\\caches\\transforms-3\\448e12895481b74f12aa96a40a56e1d8\\transformed\\core-1.6.0\\res\\values-tl\\values-tl.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "24",
-                        "startColumns": "4",
-                        "startOffsets": "2841",
-                        "endColumns": "100",
-                        "endOffsets": "2937"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Zod\\.gradle\\caches\\transforms-3\\68e4604425ccccc8b72091daeabc9e65\\transformed\\browser-1.4.0\\res\\values-tl\\values-tl.xml",
+                    "source": "C:\\Users\\win10\\.gradle\\caches\\transforms-3\\68e4604425ccccc8b72091daeabc9e65\\transformed\\browser-1.4.0\\res\\values-tl\\values-tl.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -69,6 +52,23 @@
                         "startOffsets": "2417,2520,2625,2736",
                         "endColumns": "102,104,110,104",
                         "endOffsets": "2515,2620,2731,2836"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\win10\\.gradle\\caches\\transforms-3\\448e12895481b74f12aa96a40a56e1d8\\transformed\\core-1.6.0\\res\\values-tl\\values-tl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "24",
+                        "startColumns": "4",
+                        "startOffsets": "2841",
+                        "endColumns": "100",
+                        "endOffsets": "2937"
                     }
                 }
             ]
