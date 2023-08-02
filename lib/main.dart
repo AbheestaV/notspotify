@@ -9,7 +9,7 @@ import 'login_page.dart';
 import 'home_page.dart';
 import 'models/song.dart';
 import 'services/database_service.dart';
-
+import 'login_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -52,11 +52,10 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    final _screens = [HomeScreen(), SearchScreen(), LibraryScreen()];
+    final _screens = [HomeScreen(), SearchScreen(), LibraryScreen(),];
     return Scaffold(
       appBar: AppBar(
-              title: Text('Not Spotify'),
-
+              title: Text('Spootify'),
             ),
       body: _screens[_currentIndex],
       floatingActionButton: FloatingActionButton(
@@ -67,6 +66,7 @@ class _MyAppState extends State<MyApp> {
       ),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
+
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
@@ -100,7 +100,7 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text('Spotify Clone'),
+        child: Text('Spotify Cloned us'),
       ),
     );
   }

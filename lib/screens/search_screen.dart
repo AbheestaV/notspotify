@@ -9,7 +9,7 @@ class SearchScreen extends StatelessWidget {
     return Center(
       child: TextFormField(
         textInputAction: TextInputAction.search,
-        decoration: InputDecoration(labelText: "Search"),
+        decoration: InputDecoration(labelText:"Search"),
         validator: (value) {
           if (value?.isEmpty ?? true) {
             return 'Khaali kyu chora';
