@@ -1,7 +1,6 @@
 # notspotify
 
-A Flutter project to clone spotify. MUSIC SHALL NOW BE FREE
-
+A Flutter project to clone spotify. 
 ## Getting Started
 
 
